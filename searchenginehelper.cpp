@@ -6,7 +6,7 @@ const QString GOOGLE_SEARCH_URL(QStringLiteral("https://www.google.com/search?q=
 SearchEngineHelper::SearchEngineHelper(QObject *parent)
 	: QObject(parent)
 	, m_NetworkManager()
-//	, m_SearchSuggestions( new SearchSuggestion(this) )
+    , m_SearchSuggestions( new SearchSuggestion(this) )
 	, m_SearchingUrl()
 {
 	connect(&m_NetworkManager, SIGNAL(finished(QNetworkReply*)),
@@ -21,12 +21,7 @@ SearchEngineHelper::~SearchEngineHelper()
 void SearchEngineHelper::showCompletion(const QVector<QString> &choices)
 {
 	if (choices.isEmpty())
-		return;
-
-//	m_SearchSuggestions->clearSuggestions();
-//	for (const auto &choice : choices)
-//		m_SearchSuggestions->addSuggestions(choice);
-//	emit searchSuggestionsChanged();
+        return;
 }
 
 void SearchEngineHelper::doneCompletion()

@@ -14,7 +14,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += main.cpp \
     application.cpp \
-    searchenginehelper.cpp
+    searchenginehelper.cpp \
+    searchsuggestion.cpp
 
 RESOURCES += qml.qrc \
     image.qrc
@@ -33,7 +34,8 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 HEADERS += \
     application.h \
     iconprovider.h \
-    searchenginehelper.h
+    searchenginehelper.h \
+    searchsuggestion.h
 
 TEMPLATE = app
 INSTALLS += target
