@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Images/FolderIcon.svg</file>
+        <file>Images/MicroPhone.png</file>
+        <file>Images/icons/go-next.png</file>
+        <file>Images/icons/go-previous.png</file>
+        <file>Images/icons/process-stop.png</file>
+        <file>Images/icons/view-refresh.png</file>
+        <file>Images/icons/facebook-logo.png</file>
+        <file>Images/icons/Wikipedia.png</file>
+        <file>Images/icons/youtube.png</file>
+        <file>Images/icons/google-logo.png</file>
+        <file>Images/icons/close.png</file>
+        <file>Images/AudioFileIcon.png</file>
+        <file>Images/ImageFileIcon.png</file>
+        <file>Images/OtherFileIcon.png</file>
+        <file>Images/PDFFileIcon.png</file>
+        <file>Images/TextFileIcon.png</file>
+        <file>Images/VideoFileIcon.png</file>
+    </qresource>
+</RCC>

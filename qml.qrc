@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>main.qml</file>
+        <file>qtquickcontrols2.conf</file>
+        <file>FileBrowser.qml</file>
+        <file>FileDelegate.qml</file>
+        <file>SuggestionDelegate.qml</file>
+        <file>BrowserWindow.qml</file>
+        <file>DownloadView.qml</file>
+        <file>FullScreenNotification.qml</file>
+        <file>WebEngineLoder.qml</file>
+        <file>InbuiltApplications.qml</file>
+        <file>ListOfApplications.qml</file>
+        <file>BrowserDialog.qml</file>
+    </qresource>
+</RCC>
